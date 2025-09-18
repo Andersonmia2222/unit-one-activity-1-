@@ -14,7 +14,7 @@ public class Main {
       String player = input.nextLine();
       System.out.println("welcome," + player);
 
-      public class Story {
+     public class Story {
     public static void main(String[] args) {
         String emotion = "tired";
         // print your story line by line
@@ -25,11 +25,20 @@ public class Main {
 
         String roomInHouse = "kitchen";
         System.out.println("I walked into the " + roomInHouse + " to the smell of dinner.");
-         String Noun1 = "People";
-      System.out.println( People + "were coming over for dinner ");
-      String Noun2 = "fun";
-       System.out.println( "We had so much" + fun);
 
+        String noun1 = "people";
+        System.out.println(noun1 + " were coming over for dinner.");
+
+        String noun2 = "fun";
+        System.out.println("We had so much " + noun2 + " together.");
+
+        String dessert = "cookies";
+        System.out.println("After dinner, we enjoyed fresh " + dessert + " and hot cocoa.");
+
+        String ending = "happy";
+        System.out.println("I went to bed feeling " + ending + " and thankful for the day.");
+    }
+}
 
 
 
