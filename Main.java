@@ -14,12 +14,12 @@ public class Main {
       String player = input.nextLine();
       System.out.println("welcome," + player);
 
-     public class Story {
-    public static void main(String[] args) {
-        String emotion = "tired";
+       system.out.println("type question")
+      String emotion = "tired";
         // print your story line by line
         System.out.println("I woke up feeling " + emotion + " today.");
 
+      system.out.print
         String adjective = "delicious";
         System.out.println("I walked into my house to the " + adjective + " smell of Christmas.");
 
@@ -35,21 +35,24 @@ public class Main {
         String dessert = "cookies";
         System.out.println("After dinner, we enjoyed fresh " + dessert + " and hot cocoa.");
 
-        String ending = "happy";
+        String adjective2 = "happy";
         System.out.println("I went to bed feeling " + ending + " and thankful for the day.");
-    }
+        
+        String noun3 = "dog";
+        System.out.println("My " + noun3 + " kept barking at the guests.");
+
+        String noun4 = "balloon";
+        System.out.println("A giant " + noun4 + " floated around the room and made us laugh.");
+
+        String noun5 = "guitar";
+        System.out.println("Later, someone played the " + noun5 + " and we all sang along.");
+
+         String adjective3 = "happy";
+        System.out.println("I went to bed feeling " + ending + " and thankful for the day.");
+   }
 }
 
 
 
-
-
-
-    }
-}
-
-
-
-   
 
 
