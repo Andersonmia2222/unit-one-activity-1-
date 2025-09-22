@@ -1,58 +1,60 @@
-// 1.import scanner class 
+// 1. import Scanner class
 import java.util.Scanner;
+
 public class Main {
+    public static void main(String[] args) {
+        System.out.println("Let's play MadLibs!");
+        Scanner input = new Scanner(System.in);
 
-   public static void main(String []args) {
-      System.out.println("Lets play Madlibs!");
-      // 2. set up a scanner object
-      Scanner input = new Scanner(System.in);
+        // Ask for the player’s name
+        System.out.print("Enter your name: ");
+        String player = input.nextLine();
+        System.out.println("Welcome, " + player + "! Let's start.\n");
 
-      //System.in refers to the physical keyboard!
+        // Prompt user for words
+        System.out.print("Enter an emotion: ");
+        String emotion = input.nextLine();
 
-      // 3. use the scanner to take input
-      System.out.println("Mia");
-      String player = input.nextLine();
-      System.out.println("welcome," + player);
+        System.out.print("Enter an adjective: ");
+        String adjective1 = input.nextLine();
 
-       system.out.println("type question")
-      String emotion = "tired";
-        // print your story line by line
+        System.out.print("Enter a room in a house: ");
+        String roomInHouse = input.nextLine();
+
+        System.out.print("Enter a noun: ");
+        String noun1 = input.nextLine();
+
+        System.out.print("Enter another noun: ");
+        String noun2 = input.nextLine();
+
+        System.out.print("Enter a dessert: ");
+        String dessert = input.nextLine();
+
+        System.out.print("Enter another adjective: ");
+        String adjective2 = input.nextLine();
+
+        System.out.print("Enter another noun: ");
+        String noun3 = input.nextLine();
+
+        System.out.print("Enter another noun: ");
+        String noun4 = input.nextLine();
+
+        System.out.print("Enter a musical instrument: ");
+        String noun5 = input.nextLine();
+
+        System.out.print("Enter a final adjective: ");
+        String adjective3 = input.nextLine();
+
+        // Print the completed story
+        System.out.println("\nHere’s your MadLibs story!");
         System.out.println("I woke up feeling " + emotion + " today.");
-
-      system.out.print
-        String adjective = "delicious";
-        System.out.println("I walked into my house to the " + adjective + " smell of Christmas.");
-
-        String roomInHouse = "kitchen";
+        System.out.println("I walked into my house to the " + adjective1 + " smell of Christmas.");
         System.out.println("I walked into the " + roomInHouse + " to the smell of dinner.");
-
-        String noun1 = "people";
         System.out.println(noun1 + " were coming over for dinner.");
-
-        String noun2 = "fun";
         System.out.println("We had so much " + noun2 + " together.");
-
-        String dessert = "cookies";
         System.out.println("After dinner, we enjoyed fresh " + dessert + " and hot cocoa.");
-
-        String adjective2 = "happy";
-        System.out.println("I went to bed feeling " + ending + " and thankful for the day.");
-        
-        String noun3 = "dog";
+        System.out.println("The night felt " + adjective2 + " as everyone laughed.");
         System.out.println("My " + noun3 + " kept barking at the guests.");
-
-        String noun4 = "balloon";
         System.out.println("A giant " + noun4 + " floated around the room and made us laugh.");
-
-        String noun5 = "guitar";
         System.out.println("Later, someone played the " + noun5 + " and we all sang along.");
-
-         String adjective3 = "happy";
-        System.out.println("I went to bed feeling " + ending + " and thankful for the day.");
-   }
-}
-
-
-
-
-
+        System.out.println("I went to bed feeling " + adjective3 + " and thankful for the day.");
