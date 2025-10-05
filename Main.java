@@ -45,8 +45,7 @@ public class Main {
         System.out.print("Enter a final adjective: ");
         String adjective3 = input.nextLine();
 
-        // Print the completed story
-        System.out.println("\nHere’s your MadLibs story!");
+
         System.out.println("I woke up feeling " + emotion + " today.");
         System.out.println("I walked into my house to the " + adjective1 + " smell of Christmas.");
         System.out.println("I walked into the " + roomInHouse + " to the smell of dinner.");
